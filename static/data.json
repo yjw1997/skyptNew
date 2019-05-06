@@ -1,0 +1,296 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "title": "信息监控管理",
+      "pid": 0,
+      "url": "/infor",
+      "isshow": true
+    },
+    {
+      "id": 2,
+      "title": "我的空间",
+      "pid": 0,
+      "url": "",
+      "isshow": true
+    },
+    {
+      "id": 3,
+      "title": "运维中心",
+      "pid": 0,
+      "url": "",
+      "isshow": true
+    },
+    {
+      "id": 4,
+      "title": "开发者控制站",
+      "pid": 0,
+      "url": "/Developer",
+      "isshow": true
+    },
+    {
+      "id": 5,
+      "title": "回收站",
+      "pid": 0,
+      "url": "/recycle",
+      "isshow": true
+    },
+    {
+      "id": 7,
+      "title": "我的任务",
+      "pid": 2,
+      "url": "/mytask",
+      "isshow": true
+    },
+    {
+      "id": 8,
+      "title": "我的数据",
+      "pid": 2,
+      "url": "/mydata",
+      "isshow": true
+    },
+    {
+      "id": 9,
+      "title": "我的服务",
+      "pid": 2,
+      "url": "/myservice",
+      "isshow": true
+    },
+    {
+      "id": 10,
+      "title": "我的日志",
+      "pid": 2,
+      "url": "/mylog",
+      "isshow": true
+    },
+    {
+      "id": 11,
+      "title": "用户管理",
+      "pid": 3,
+      "url": "/myuser",
+      "isshow": true
+    },
+    {
+      "id": 12,
+      "title": "流程管理",
+      "pid": 3,
+      "url": "/processmanagement",
+      "isshow": true
+    },
+    {
+      "id": 13,
+      "title": "日志管理",
+      "pid": 3,
+      "url": "/logmanagement",
+      "isshow": true
+    },
+    {
+      "id": 14,
+      "title": "服务分类管理",
+      "pid": 3,
+      "url": "/serviceclassification",
+      "isshow": true
+    },
+    {
+      "id": 15,
+      "title": "资源授权管理",
+      "pid": 3,
+      "url": "/resourCeauthorizationManagement",
+      "isshow": true
+    },
+    {
+      "id": 16,
+      "title": "ArcGis服务注册",
+      "pid": 3,
+      "url": "/ArcGis",
+      "isshow": true
+    },
+    {
+      "id": 17,
+      "title": "纠错管理",
+      "pid": 3,
+      "url": "/Errorcorrection",
+      "isshow": true
+    },
+    {
+      "id": 18,
+      "title": "新闻管理",
+      "pid": 3,
+      "url": "/Newsmanagement",
+      "isshow": true
+    },
+    {
+      "id": 19,
+      "title": "主题配置",
+      "pid": 3,
+      "url": "/Themeconfiguration",
+      "isshow": true
+    }
+  ],
+  "columns1": [
+    {
+      "title": "Name",
+      "key": "name"
+    },
+    {
+      "title": "Age",
+      "key": "age"
+    },
+    {
+      "title": "Address",
+      "key": "address"
+    }
+  ],
+  "data1": [
+    {
+      "name": "John Brown",
+      "age": "18",
+      "address": "New York No. 1 Lake Park",
+      "date": "2016-10-03"
+    },
+    {
+      "name": "Jim Green",
+      "age": "24",
+      "address": "New York No. 1 Lake Park",
+      "date": "2016-10-03"
+    },
+    {
+      "name": "John red",
+      "age": "19",
+      "address": "New York No. 1 Lake Park",
+      "date": "2016-10-03"
+    },
+    {
+      "name": "John blue",
+      "age": "20",
+      "address": "New York No. 1 Lake Park",
+      "date": "2016-10-03"
+    }
+  ],
+  "data2": [
+    {
+      "title": "parent 1",
+      "expand": true,
+      "children": [
+        {
+          "title": "parent 1-1",
+          "expand": true,
+          "children": [
+            {
+              "title": "leaf 1-1-1"
+            },
+            {
+              "title": "leaf 1-1-2"
+            }
+          ]
+        },
+        {
+          "title": "parent 1-2",
+          "expand": true,
+          "children": [
+            {
+              "title": "leaf 1-2-1"
+            },
+            {
+              "title": "leaf 1-2-1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appDatas": [
+    {
+      "id": "1",
+      "type": "服务申请",
+      "name": "服务名1",
+      "schedule": "待提交",
+      "status": "未通过",
+      "time": "2018-5-22 11:52:22",
+      "show": 1
+    },
+    {
+      "id": "2",
+      "type": "服务申请",
+      "name": "服务名1",
+      "schedule": "待提交",
+      "status": "已通过",
+      "time": "2018-5-22 11:52:22",
+      "show": 1
+    },
+    {
+      "id": "3",
+      "type": "服务申请",
+      "name": "服务名1",
+      "schedule": "待提交",
+      "status": "未提交",
+      "time": "2018-5-22 11:52:22",
+      "show": 1
+    },
+    {
+      "id": "4",
+      "type": "服务申请",
+      "name": "服务名1",
+      "schedule": "待提交",
+      "status": "未提交",
+      "time": "2018-5-22 11:52:22",
+      "show": 1
+    },
+    {
+      "id": "5",
+      "type": "服务申请",
+      "name": "服务名1",
+      "schedule": "待提交",
+      "status": "未提交",
+      "time": "2018-5-22 11:52:22",
+      "show": 1
+    }
+  ],
+  "appdata": [
+    {
+      "id": "1",
+      "type": "服务申请",
+      "name": "服务名1",
+      "schedule": "待提交",
+      "status": "未通过",
+      "time": "2018-5-22 11:52:22",
+      "show": 1
+    },
+    {
+      "id": "2",
+      "type": "服务申请",
+      "name": "服务名1",
+      "schedule": "待提交",
+      "status": "已通过",
+      "time": "2018-5-22 11:52:22",
+      "show": 1
+    },
+    {
+      "id": "3",
+      "type": "服务申请",
+      "name": "服务名1",
+      "schedule": "待提交",
+      "status": "未提交",
+      "time": "2018-5-22 11:52:22",
+      "show": 1
+    },
+    {
+      "id": "4",
+      "type": "服务申请",
+      "name": "服务名1",
+      "schedule": "待提交",
+      "status": "未提交",
+      "time": "2018-5-22 11:52:21",
+      "show": 1
+    },
+    {
+      "id": "5",
+      "type": "服务申请",
+      "name": "服务名1",
+      "schedule": "待提交",
+      "status": "未提交",
+      "time": "2018-5-22 11:52:23",
+      "show": 1
+    }
+  ]
+}
