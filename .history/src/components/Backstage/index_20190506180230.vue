@@ -12,8 +12,8 @@ export default {
   'components': {
     MyNav
   },
-  mounted () {
-    console.log(this.$store.getters.isShow)
+  mounted() {
+    
   }
 }
 </script>

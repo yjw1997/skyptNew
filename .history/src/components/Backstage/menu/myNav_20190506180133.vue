@@ -37,6 +37,7 @@ export default {
   name: 'myNav',
   mounted () {
     this.$store.commit('hide')
+    console.log(this.$store.getters.isShow)
   }
 }
 </script>

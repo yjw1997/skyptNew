@@ -13,7 +13,7 @@ export default {
     MyNav
   },
   mounted () {
-    console.log(this.$store.getters.isShow)
+
   }
 }
 </script>
